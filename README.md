@@ -56,4 +56,4 @@ It quizzes users with 5 multiple-choice questions, checks their answers, calcula
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/java-quiz-app.git
+   git clone https://github.com/ShravanPusdekar/java-quiz-app.git
