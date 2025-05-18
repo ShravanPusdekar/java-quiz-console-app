@@ -1,82 +1,58 @@
-# 🧮 Clean JavaFX Calculator
-
-[![Java](https://img.shields.io/badge/Java-8%2B-blue.svg?logo=java)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-17%2B-blue.svg?logo=java)](https://www.oracle.com/java/)
 [![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
-[![Made by](https://img.shields.io/badge/Made%20By-YourName-orange)]()
+[![Made by](https://img.shields.io/badge/Made%20By-Shravan%20Pusdekar-orange)]()
 
-A sleek and user-friendly desktop calculator built using **JavaFX** (Java 8).  
-Performs basic arithmetic operations (Add, Subtract, Multiply, Divide) with robust input validation and clear error messages.
+A beginner-friendly yet structured **Java Quiz App** 📚 built with core Java concepts like ArrayList, Scanner, and OOP.  
+It quizzes users with 5 multiple-choice questions, checks their answers, calculates the score, and prints a personalized **report card**!  
+
+> 🚀 **Perfect for internship portfolios and Java practice projects.**  
 
 ---
 
 ## 🚩 Features
 
-- Clean and minimalistic UI using JavaFX `VBox` and `HBox`
-- Input validation with friendly error prompts
-- Handles division by zero gracefully
-- Responsive button event handling via lambdas
-- Displays result dynamically on the UI
-- Custom window icon support
+- 🧑‍💻 Collects **User Name** & **Roll Number**
+- ❓ Asks **5 multiple-choice questions**
+- 🎯 **Validates** answers (options 1-4)
+- ✅ Calculates **Score**
+- 📝 Generates **Report Card**
+- 🎉 Displays **Pass/Fail** result
+- 🏷️ Developer Signature *MADE BY @SHRAVANPUSDEKAR*
 
 ---
 
 ## 📂 Project Structure
 
-This project consists of a **single Java class**:
+| Class Name  | Responsibility                           |
+|-------------|-------------------------------------------|
+| data      | Stores user details (Name & Roll No)      |
+| questions | Stores and displays quiz questions        |
+| answers   | Stores user answers and checks score      |
+| quizApp1  | The main class to run the full program  |
 
-- `calculator_javFX.java`: Contains the full JavaFX application code, including UI setup, event handling, and calculation logic.
+---
+
+## 📊 Pass/Fail Rules
+
+- ✅ **Pass**: Score **3 or more** out of 5
+- ❌ **Fail**: Score less than 3
 
 ---
 
 ## 💻 Technologies Used
 
-| Technology  | Version          | Purpose                             |
-|-------------|------------------|-----------------------------------|
-| Java SE     | 8 or above       | Programming language and runtime  |
-| JavaFX      | Bundled with Java 8 | GUI framework for desktop UI       |
+- **Java 17 or above**
+- IDE: IntelliJ IDEA / Eclipse / VSCode
+- Uses:
+  - ArrayList
+  - Scanner
+  - Basic **OOP Concepts**
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run the Project
 
-1. **Clone or download** the repository.
-2. Open the project in an IDE supporting Java 8 and JavaFX (e.g., IntelliJ IDEA).
-3. Compile and run the `calculator_javFX` class.
-4. Enter two integers in the input fields.
-5. Click any operation button to perform calculation.
-6. View results or error messages immediately on the interface.
-
----
-
-## ⚙️ Code Overview
-
-- **UI Components:**  
-  Uses `Label`, `TextField`, `Button`, `HBox`, and `VBox` for structured layout.  
-  Applies inline CSS to style background color and error messages.
-
-- **Event Handling:**  
-  Each operation button triggers the shared `calculate()` method with the operator as parameter.
-
-- **Calculation Logic:**  
-  Parses input text fields to integers, handles invalid inputs with exceptions, and manages division-by-zero error elegantly.
-
----
-
-## 🛠️ Future Improvements
-
-- Support decimal (floating-point) calculations
-- Add more operations (modulus, exponentiation)
-- Enhance UI with CSS stylesheet for better theming
-- Implement keyboard shortcuts for quick input and operations
-- Add memory functions (M+, M-, MR, MC)
-- Make the app resizable and responsive
-
----
-
-## 📬 Contact
-
-For suggestions, issues, or collaboration, please reach out via GitHub or email.
-
----
-
-*Made with ❤️ using JavaFX by ShravanPusdekar*
+1. **Clone the repository**  
+   
+bash
+   git clone https://github.com/ShravanPusdekar/java-qui
